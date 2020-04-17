@@ -23,9 +23,6 @@
       size="default"
     ></button>
   </view>
-  <view class="userinfo-nickname-wrapper">
-    <button class="userinfo-nickname" bindtap="onGetOpenid">登录</button>
-  </view>
 
 
   <!-- 上传图片 -->
@@ -67,5 +64,10 @@
     </navigator>
   </view> -->
 
-
+<view class="btn-area">
+  <navigator class="navigator" url="/pages/index/index" redirect>首页</navigator>
+  <navigator class="navigator" url="../../redirect/redirect/redirect?title=redirect" hover-class="navigator-hover">1</navigator>
+  <navigator class="navigator" url="/page/index/index" hover-class="navigator-hover">2</navigator>
+  <navigator class="navigator" url="/pages/personal/personal" hover-class="navigator-hover">个人</navigator>
+</view>
 </view>
