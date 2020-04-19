@@ -1,18 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room",
+    "pages/message/message",
     "pages/personal/personal"
   ],
   "window": {
@@ -23,5 +12,23 @@
     "navigationBarTextStyle": "white"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/shouye.png",
+      "selectedIconPath": "images/shouyeActive.png"
+    },{
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "images/xiaoxi.png",
+      "selectedIconPath": "images/xiaoxiActive.png"
+    },
+    {
+      "pagePath": "pages/personal/personal",
+      "text": "个人",
+      "iconPath": "images/geren.png",
+      "selectedIconPath": "images/gerenActive.png"
+    }]
+  }
 }
